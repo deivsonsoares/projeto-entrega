@@ -1,0 +1,108 @@
+:root{
+    --brancofosco:rgb(221, 214, 214);
+    --cinzachumbo:rgb(58, 53, 53);
+    --preta:black;
+    --vermelho: #e50914;
+}
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--brancofosco);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    margin: auto;
+    color: var(--vermelho);
+    font-family: arial black;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--preta);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: rgb(89, 89, 243);
+}
+
+ .apresentacaoini {
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)100%), url('C:/Users/Claro/Documents/INPULSO/Projeto entrega/aulas/img/apresentacao.jpg');
+    height: 560px;
+    width: 595px;
+    background-size:cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.apresentacaoini .container{
+    /*posicionamento geral da box*/
+    width: 70%;
+}
+
+.apresentacaoini .descricao{
+    margin-bottom: 90px;
+    width: auto;
+    display: flex;
+    background:rgba(0,0,0,.70);
+    
+}
+.apresentacaoini .descricao:hover{
+    color: yellow;
+    
+} 
+
+.titulo{
+    margin-top: 30%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;      
+    margin-right: 30px;
+    /*efeito nos botoes*/
+    transition: .3s ease all;
+    /*buscar icones :font awesome*/
+
+
+}
+.botao i{
+    margin: 8px;
+}
+.botao:hover{
+    background-color: var(--brancofosco);
+    color: var(--preta);
+}
+
+/*ferramenta jquery*/
+/*tamanho img*/
+.box-img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-produtos{
+    margin-top: 5px;
+}
